@@ -1,6 +1,6 @@
 # Site settings
 title: MJD Soundboard
-email: thechancellor@unc.edu
+email: services@unc.edu
 description: > # this means to ignore newlines until "baseurl:"
   A soundboard to help you win in bingo.
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
