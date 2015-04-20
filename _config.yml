@@ -13,3 +13,13 @@ markdown: kramdown #redcarpet
 pygments: true
 baseurl: /mjdSounds
 
+  # Settings for analytics helper
+# Set 'provider' to the analytics provider you want to use.
+# Set 'provider' to false to turn analytics off globally.
+#        
+analytics :
+  provider : google
+  google : 
+      tracking_id : 'UA-62053954-2'
+  getclicky :
+    site_id :
