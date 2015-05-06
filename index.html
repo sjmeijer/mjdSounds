@@ -4,18 +4,26 @@ title: Home
 ---
 
 	<!-- setup audio  -->
-	<audio id="Join" 			src="audio-sm/Join1.mp3"></audio>
+	<audio id="Join" 			src="audio-sm/Join.mp3"></audio>
 	<audio id="Hangup" 			src="audio-sm/Hangup1.mp3"></audio>
 	<audio id="Tape" 			src="audio-sm/Keith_Theres-a-lot-of-tape-holding-it-together.mp3"></audio>
 	<audio id="CHY-Join" 		src="audio-sm/CHY_Who-else-just-joined.mp3"></audio>
 	<audio id="Jason-Broken" 	src="audio-sm/Jason_It-was-fixed-on-monday-broken-again.mp3"></audio>
+	<audio id="Jason-strangely" 	src="audio-sm/Jason_Something-behaving-strangely-try-again.mp3"></audio>
+	
 	<audio id="Very-easy" 		src="audio-sm/David_thats-very-easy-to-do.mp3"></audio>
 	<audio id="half-day"		src="audio-sm/David_just-half-a-days-coding.mp3"></audio>
 	<audio id="Not-sure" 		src="audio-sm/David_Well-Im-not-sure.mp3"></audio>
+	<audio id="David-reproduce" 		src="audio-sm/David_that-reproduces-the-data.mp3"></audio>
 	<audio id="CHY-questions" 	src="audio-sm/CHY_Any-questions-or-comments.mp3"></audio>
 	<audio id="HangupFull"		src="audio-sm/HangupFull.mp3"></audio>
 	<audio id="Keith-tape"		src="audio-sm/Keith_Theres-a-lot-of-tape-holding-it-together.mp3"></audio>
 	<audio id="Kathy-send"		src="audio-sm/KC_Send-that-to-me-too.mp3"></audio>
+	
+	<audio id="JFW-misspoke"	src="audio-sm/JFW_I-misspoke.mp3"></audio>
+	<audio id="JFW-Normal-analysis"	src="audio-sm/JFW_Normally-the-other-direction.mp3"></audio>
+	<audio id="JFW-solve"		src="audio-sm/JFW_Just-saying-weve-got-to-solve-this.mp3"></audio>
+	
 	
 	<!-- end setup of audio -->
 
@@ -26,15 +34,30 @@ title: Home
 	<div>
 	<button onclick="document.getElementById('Join').play()">Join</greenbutton>
  	<button onclick="document.getElementById('Hangup').play()">Hang up</button>
- 	<button onclick="document.getElementById('HangupFull').play()">Gotta go</button>
+ 	<button onclick="document.getElementById('HangupFull').play()">Call end</button>
+	</div>
+	
+	<div>
  	<button onclick="document.getElementById('CHY-Join').play()">Who else?</button>
+ 	<button onclick="document.getElementById('CHY-questions').play()">Any questions?</button>
+	</div>
+	
+	<div>
  	<button onclick="document.getElementById('Very-easy').play()">Very easy to do</button>
  	<button onclick="document.getElementById('Not-sure').play()">Not sure</button> 	
- 	<button onclick="document.getElementById('half-day').play()">Just a half a day's coding</button> 	
+ 	<button onclick="document.getElementById('half-day').play()">Just a half a day's coding</button> 
+ 	<button onclick="document.getElementById('David-reproduce').play()">Reproduce the data</button> 
+			
  	<button onclick="document.getElementById('Jason-Broken').play()">Broken again</button>
- 	<button onclick="document.getElementById('CHY-questions').play()">Any questions?</button>
+ 	<button onclick="document.getElementById('Jason-strangely').play()">Behaving strangely</button>
  	<button onclick="document.getElementById('Keith-tape').play()">A lot of tape</button>
  	<button onclick="document.getElementById('Kathy-send').play()">Send it to Kathy</button>
+	</div>
+	
+	<div>
+ 	<button onclick="document.getElementById('JFW-misspoke').play()">I misspoke</button>
+ 	<button onclick="document.getElementById('JFW-Normal-analysis').play()">Normal analysis...</button>
+ 	<button onclick="document.getElementById('JFW-solve').play()">Solve this problem</button>
 	
  
  	</div>
